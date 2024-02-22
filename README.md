@@ -1,26 +1,21 @@
 # network_scan
-ARP Network Scanner
+Network Scanner
 
-This Python script performs an ARP (Address Resolution Protocol) scan on the local network to discover active devices and their corresponding MAC addresses.
+This Python script performs an network scan on the local network to discover active devices and their corresponding MAC addresses.
 Usage
 
     Clone the Repository:
 
-    bash
-
-git clone https://github.com/yourusername/arp-network-scanner.git
+    
+git clone https://github.com/arun-the-hacker/network_scan.git
 
 Navigate to the Project Directory:
 
-bash
-
-cd arp-network-scanner
+cd networ_scan
 
 Run the Script:
 
-bash
-
-    python arp_scanner.py -t <target_ip>
+    python networkscanner.py -t <target_ip>
 
     Replace <target_ip> with the IP address of the target network (e.g., 192.168.1.0/24).
 
@@ -32,8 +27,6 @@ Requirements
 
     Install the library using pip:
 
-    bash
-
     pip install scapy
 
 Options
@@ -44,7 +37,7 @@ Example
 
 bash
 
-python arp_scanner.py -t 192.168.1.0/24
+python networkscanne.py -t 192.168.1.0/24
 
 Author
 
